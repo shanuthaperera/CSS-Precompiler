@@ -1,0 +1,22 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir=public",
+    "watch": "sass --watch public/src/scss/style.scss:public/assets/css/style.css",
+    "start": "concurrently \"npm run watch\" \"npm run dev\""
+  }
+  
+,  
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "description": ""
+}
