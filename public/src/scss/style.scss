@@ -11,6 +11,7 @@ $color-footer-bg: #f0f0f0;
 $color-footer-text: #989898;
 $color-footer-link: #111111;
 $color-footer-link-hover: #111111;
+$font-size-15:15px;
 
 // Mixins
 @mixin transition($properties, $duration: 0.3s, $timing-function: ease) {
@@ -20,7 +21,7 @@ $color-footer-link-hover: #111111;
 // Global Styles
 body {
   font-family: $font-quando;
-  font-size: 15px;
+  font-size:$font-size-15;
   color: $color-text;
 }
 
